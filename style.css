@@ -1,0 +1,110 @@
+body {
+    background-size: cover;
+}
+
+li {
+    font-size: 30px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.parent {
+    margin-top: 1%;
+    display: flex;
+}
+
+.child {
+    flex: 1;
+}
+
+.bodyTitle {
+    margin-top: 30%;
+    margin-bottom: 10px;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.bigBtn {
+    margin-top: 11px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: white
+}
+
+.smallBtn {
+    margin-top: 11px;
+    margin-left: 5px;
+    width: 100px;
+    border-radius: 20px;
+    background: white
+}
+
+input {
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.greeting {
+    margin-top: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.clock {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.backgound_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toDoForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toDoInput {
+    width: auto;
+    padding-left: 15px;
+    height: 20px;
+}
+
+.todo-list {
+    margin-top: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    list-style: none;
+}
+
+.weather {
+    margin-top: 150%;
+    margin-right: 10%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    font-size: 30px;
+}
